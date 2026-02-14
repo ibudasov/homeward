@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Homeward Security</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5/dist/flatly/bootstrap.min.css">
 </head>
 <body>
-  
-  <h1>Homeward Security</h1>
 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Homeward</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMain" aria-controls="navbarsMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <section>
-    <h1>What we do</h1>
-    <p>We help with PCI/DSS, SOC2, NIS2 and ISO27k certifications</p>
-    <hr>
-  </section>
+      <div class="collapse navbar-collapse" id="navbarsMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#what">What we do</a></li>
+          <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
+          <li class="nav-item"><a class="nav-link" href="#specialization">Specialization</a></li>
+          <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <section>
-    <h1>Roadmap</h1>
-    
-    <p>The roadmap of implementation. The acrtual time depends per project</p>
-    
-    <img src="roadmap.png" alt="Roadmap of implementation" width="100%">
-    <hr>
-  </section>
+  <header class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h1 class="display-4">Homeward Security</h1>
+          <p class="lead">We help with PCI/DSS, SOC2, NIS2 and ISO27k certifications</p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <img src="logo.png" alt="Homeward logo" style="max-width:160px;">
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <section>
-    <h1>Specialization</h1>
-    
-    <p>Contact us for more information or to schedule a consultation.</p>
+  <main class="container my-5">
+    <section id="what" class="mb-5">
+      <h2>What we do</h2>
+      <p>We help with PCI/DSS, SOC2, NIS2 and ISO27k certifications</p>
+      <hr>
+    </section>
 
-    <li>Cloud environments — Cloud-native, hybrid-cloud or multi-cloud — no matter where your business is located, we would be able to assess your IT landscape and desribe a clear way for achieving a certification.</li>
-    <li>PCI/DSS — Processing of creditcards opens new horizins for many businesses, but doing so legally requires a certification according to the business specificity and size. We will help to assess, plan and execute all the steps needed for this</li>
-    <li>ISO27001 — Quite broad set of regulations related to Information security, which is required for Government-related services, is also usefult to show your partners that you deal with their data on a professional level. We will help with all the adjustments of your business in order to get this certificate.</li>
-    <li>SOC2 — This is a certificate which is required for many B2B services, especially in the US. It shows that you have a good control over your data and processes, and that you are able to keep your customers' data safe. We will help you to get this certificate as well.</li>
-    <hr>
+    <section id="roadmap" class="mb-5">
+      <h2>Roadmap</h2>
+      <p>The roadmap of implementation. The actual time depends per project</p>
+      <img src="roadmap.png" alt="Roadmap of implementation" class="img-fluid">
+      <hr>
+    </section>
 
-  </section>
+    <section id="specialization" class="mb-5">
+      <h2>Specialization</h2>
+      <p>Contact us for more information or to schedule a consultation.</p>
+      <ul>
+        <li>Cloud environments — Cloud-native, hybrid-cloud or multi-cloud — we assess your IT landscape and describe a clear path to certification.</li>
+        <li>PCI/DSS — We assess, plan and execute the steps needed for compliance.</li>
+        <li>ISO27001 — We help adjust your business to obtain this certification.</li>
+        <li>SOC2 — We help prepare and achieve SOC2 for B2B services.</li>
+      </ul>
+      <hr>
+    </section>
 
-  <section>
-    <h1>Securing since 2024</h1>
-    <p>Headquartered in Amsterdam  with a satellite office in London, Homeward helps to achieve security certifications for our clients. Our firm specializes in all Cloud related matters, from the seed of an idea to the final product.
-      <br>
-      <br>
-      Whether you’re a scale up, a segment of large enterprise,  or small business owner, we will not only protect what you create, but we’ll also help to bring it to the new level. We bring extensive experience and professionalism to every case and customize our support to your individual needs and concerns.
-    </p>
-    <hr>
-  </section>
+    <section id="about" class="mb-5">
+      <h2>Securing since 2024</h2>
+      <p>Headquartered in Amsterdam with a satellite office in London, Homeward helps to achieve security certifications for our clients. Our firm specializes in all Cloud related matters, from the seed of an idea to the final product.</p>
+      <hr>
+    </section>
 
-  <section>
-    <h1>Our Clients</h1>
+    <section id="clients" class="mb-5">
+      <h2>Our Clients</h2>
+      <ul>
+        <li>CashTime — certified PCI/DSS card processor</li>
+        <li>Milence — NIS2-compliant critical european infrastructure provider</li>
+        <li>Mollie — PCI/DSS compliant credit card processor and payment aggregator</li>
+        <li>Nya — SOC2-compliant AI health coach</li>
+      </ul>
+    </section>
+  </main>
 
-    <li>CashTime — certified PCI/DSS card processor</li>
-    <li>Milence — NIS2-compliant critical european infrastructure pfovider</li>
-    <li>Mollie — PCI/DSS compliant credit card processor and payment aggregator</li>
-    <li>Nya — SOC2-compliant AI health coach</li>
+  <footer class="bg-secondary text-white py-4">
+    <div class="container text-center">
+      &copy; 2024 Homeward Security — <a href="#contact" class="text-white text-decoration-underline">Contact</a>
+    </div>
+  </footer>
 
-    <hr>
-  </section>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
