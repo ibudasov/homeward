@@ -42,7 +42,7 @@ class HomewardFooter extends HTMLElement {
     const footerContent = document.createElement('footer');
     footerContent.innerHTML = `
       <div class="container">
-        &copy; 2024 Homeward Security — <a href="#contact">Contact</a>
+        &copy; 2024 Homeward Security — <a href="mailto:gazer-flair9o@icloud.com">Contact</a>
       </div>
     `;
 
