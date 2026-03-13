@@ -111,12 +111,32 @@
 
     <section id="clients" class="mb-5">
       <h2>Our Clients</h2>
-      <ul>
-        <li>CashTime — certified PCI/DSS card processor</li>
-        <li>Milence — NIS2-compliant critical european infrastructure provider</li>
-        <li>Mollie — PCI/DSS compliant credit card processor and payment aggregator</li>
-        <li>Nya — SOC2-compliant AI health coach</li>
-      </ul>
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="list-group" id="clientList" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="client-cashtime-list" data-bs-toggle="list" href="#client-cashtime" role="tab" aria-controls="cashtime">CashTime</a>
+            <a class="list-group-item list-group-item-action" id="client-milence-list" data-bs-toggle="list" href="#client-milence" role="tab" aria-controls="milence">Milence</a>
+            <a class="list-group-item list-group-item-action" id="client-mollie-list" data-bs-toggle="list" href="#client-mollie" role="tab" aria-controls="mollie">Mollie</a>
+            <a class="list-group-item list-group-item-action" id="client-nya-list" data-bs-toggle="list" href="#client-nya" role="tab" aria-controls="nya">Nya</a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="tab-content" id="clientDetails">
+            <div class="tab-pane fade show active" id="client-cashtime" role="tabpanel" aria-labelledby="client-cashtime-list">
+              <p>CashTime — certified PCI/DSS card processor.</p>
+            </div>
+            <div class="tab-pane fade" id="client-milence" role="tabpanel" aria-labelledby="client-milence-list">
+              <p>Milence — NIS2-compliant critical European infrastructure provider.</p>
+            </div>
+            <div class="tab-pane fade" id="client-mollie" role="tabpanel" aria-labelledby="client-mollie-list">
+              <p>Mollie — PCI/DSS compliant credit card processor and payment aggregator.</p>
+            </div>
+            <div class="tab-pane fade" id="client-nya" role="tabpanel" aria-labelledby="client-nya-list">
+              <p>Nya — SOC2-compliant AI health coach.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
