@@ -117,25 +117,30 @@
       <div class="row">
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="list-group" id="clientList" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="client-cashtime-list" data-bs-toggle="list" href="#client-cashtime" role="tab" aria-controls="cashtime">CashTime</a>
-            <a class="list-group-item list-group-item-action" id="client-milence-list" data-bs-toggle="list" href="#client-milence" role="tab" aria-controls="milence">Milence</a>
-            <a class="list-group-item list-group-item-action" id="client-mollie-list" data-bs-toggle="list" href="#client-mollie" role="tab" aria-controls="mollie">Mollie</a>
-            <a class="list-group-item list-group-item-action" id="client-nya-list" data-bs-toggle="list" href="#client-nya" role="tab" aria-controls="nya">Nya</a>
+            <a class="list-group-item list-group-item-action active" id="client-UkrCredit-list" data-bs-toggle="list" href="#client-UkrCredit" role="tab" aria-controls="UkrCredit">PCI/DSS for UkrCredit</a>
+            <a class="list-group-item list-group-item-action" id="client-Eletruck-list" data-bs-toggle="list" href="#client-Eletruck" role="tab" aria-controls="Eletruck">NIS2 for Eletruck</a>
+            <a class="list-group-item list-group-item-action" id="client-Aggrepay-list" data-bs-toggle="list" href="#client-Aggrepay" role="tab" aria-controls="Aggrepay">Aggrepay</a>
+            <a class="list-group-item list-group-item-action" id="client-Bruno-list" data-bs-toggle="list" href="#client-Bruno" role="tab" aria-controls="Bruno">Bruno</a>
           </div>
         </div>
         <div class="col-md-8">
           <div class="tab-content" id="clientDetails">
-            <div class="tab-pane fade show active" id="client-cashtime" role="tabpanel" aria-labelledby="client-cashtime-list">
-              <p>CashTime is a Ukrainian fintech company that is certified as a PCI/DSS card processor. <br><br>We collaborated with them on understanding the scope, reducing it to bare minimum in order to achieve the smallest possible surface of attack. <br><br>After that we reviewed all the digital assets of the company in the scope and created a remediation plan. During the implementation phase we are supplorting CashTime and looking forward for the final assesment.</p>
+            <div class="tab-pane fade show active" id="client-UkrCredit" role="tabpanel" aria-labelledby="client-UkrCredit-list">
+              <p>UkrCredit is a Ukrainian fintech company that is certified as a PCI/DSS card processor.</p>
+              <p>We collaborated with them on understanding the scope, reducing it to bare minimum in order to achieve the smallest possible surface of attack.</p>
+              <p>After that we reviewed all the digital assets of the company in the scope and created a remediation plan. During the implementation phase we are suppporting UkrCredit and looking forward for the final assesment.</p>
             </div>
-            <div class="tab-pane fade" id="client-milence" role="tabpanel" aria-labelledby="client-milence-list">
-              <p>Milence — NIS2-compliant critical European infrastructure provider. </p>
+            <div class="tab-pane fade" id="client-Eletruck" role="tabpanel" aria-labelledby="client-Eletruck-list">
+              <p>Eletruck — NIS2-compliant critical European infrastructure provider.</p>
+              <p>We worked on network security hardening: Ingress and Egress traffic unification, East-West traffic scanning and segregation.</p>
+              <p>Since the company operates critical infrastructure, we identified what is considered staying operational in disasterous situation, identified critical resources and set them up in High Availability manner. The project was completed with a disaster simulation over production environment.</p>
+              <p>Apart from that we hardened security of all the critical public company services in order to be protected from most popular attacks like DDoS, ransomware, OWASP, etc.</p>
             </div>
-            <div class="tab-pane fade" id="client-mollie" role="tabpanel" aria-labelledby="client-mollie-list">
-              <p>Mollie — PCI/DSS compliant credit card processor and payment aggregator.</p>
+            <div class="tab-pane fade" id="client-Aggrepay" role="tabpanel" aria-labelledby="client-Aggrepay-list">
+              <p>Aggrepay — PCI/DSS compliant credit card processor and payment aggregator.</p>
             </div>
-            <div class="tab-pane fade" id="client-nya" role="tabpanel" aria-labelledby="client-nya-list">
-              <p>Nya — SOC2-compliant AI health coach.</p>
+            <div class="tab-pane fade" id="client-Bruno" role="tabpanel" aria-labelledby="client-Bruno-list">
+              <p>Bruno — SOC2-compliant AI health coach.</p>
             </div>
           </div>
         </div>
