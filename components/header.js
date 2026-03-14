@@ -29,6 +29,7 @@ class HomewardHeader extends HTMLElement {
               <li class="nav-item"><a class="nav-link" href="#what">What we do</a></li>
               <li class="nav-item"><a class="nav-link" href="#specialization">Specialization</a></li>
               <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+              <li class="nav-item"><a class="nav-link" href="#jobs">Jobs</a></li>
             </ul>
           </div>
         </div>
